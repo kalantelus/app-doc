@@ -10,6 +10,7 @@ on:
       - "mkdocs.yml"
       - ".github/workflows/main.yml"
       - "app-doc.yaml"
+      - "/"
 
 jobs:
   publish-techdocs-site:
