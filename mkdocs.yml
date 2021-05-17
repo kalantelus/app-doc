@@ -1,14 +1,13 @@
-
-site_name: 'App Docs'
+site_name: "App Docs"
 docs_dir: .
 site_dir: ../site
 
 theme:
   name: material
   custom_dir: docs/overrides
-extra_css: 
-    - docs/overrides/stylesheets/extra.css 
-  
+extra_css:
+  - docs/overrides/stylesheets/extra.css
+
 nav:
   - Home: onboarding/index.md
   - Subpage: onboarding/sub-page.md
@@ -18,9 +17,9 @@ nav:
 plugins:
   - exclude:
       regex:
-        - 'node_modules/'
-        - 'plugins/.*?/node_modules/'
-        - 'packages/.*?/node_modules/'
+        - "node_modules/"
+        - "plugins/.*?/node_modules/"
+        - "packages/.*?/node_modules/"
 
   - same-dir
 
@@ -28,3 +27,4 @@ plugins:
       show_contribution: true
       show_line_count: false
       count_empty_lines: false
+# hello
