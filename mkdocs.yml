@@ -9,10 +9,10 @@ extra_css:
   - docs/overrides/stylesheets/extra.css
 
 nav:
-  - Home: onboarding/index.md
-  - Subpage: onboarding/sub-page.md
-  - App Code: onboarding/code/code-sample.md
-  - Extensions: onboarding/extensions.md
+  # - Home: onboarding/index.md
+  # - Subpage: onboarding/sub-page.md
+  # - App Code: onboarding/code/code-sample.md
+  # - Extensions: onboarding/extensions.md
 
 plugins:
   - exclude:
