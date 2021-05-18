@@ -41,7 +41,7 @@ jobs:
       - uses: cloudbees/plantuml-github-action@master
 
       - name: Install techdocs-cli
-        run: sudo npm install -g @techdocs/cli
+        run: sudo npm install -g @techdocs/cli@0.3.2
 
       - name: Install mkdocs and mkdocs plugins
         run: |
