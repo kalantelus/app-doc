@@ -21,7 +21,7 @@ jobs:
       TECHDOCS_BUCKET_NAME: "tech-docs-documents"
       ENTITY_NAMESPACE: "default"
       ENTITY_KIND: "Component"
-      ENTITY_NAME: "app-doc"
+      ENTITY_NAME: "kalan-test-techdoc"
 
     steps:
       - name: Checkout code
