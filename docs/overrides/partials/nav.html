@@ -1,5 +1,7 @@
 {#- This file was automatically generated - do not edit -#} {% set class =
-"md-nav md-nav--primary" %}
+"md-nav md-nav--primary" %} {% if "navigation.tabs" in features %} {% set class
+= class ~ " md-nav--lifted" %} {% endif %} {% if "toc.integrate" in features %}
+{% set class = class ~ " md-nav--integrated" %} {% endif %}
 <nav
   class="{{ class }}"
   aria-label="{{ lang.t('nav.title') }}"
